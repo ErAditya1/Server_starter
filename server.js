@@ -13,9 +13,7 @@ app.use(
   })
 );
 
-app.get("/", (req, res) => {
-  console.log("request sent");
-});
+
 //  create a method to send a request to another server with the help of axios and node cron on every minuteconst axios = require("axios");
 // const cron = require("node-cron");
 
