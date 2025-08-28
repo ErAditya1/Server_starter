@@ -1,0 +1,20 @@
+{
+  "name": "server_starter",
+  "version": "1.0.0",
+  "description": "\"Server starter\"",
+  "license": "ISC",
+  "author": "Aditya Kumar",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-cron": "^4.2.1"
+  }
+}
