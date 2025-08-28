@@ -19,7 +19,7 @@ app.use(
 
 const baseURI = process.env.SERVER_URI ;
 console.log(process.env.SERVER_URI);
-cron.schedule("* * * * *", () => {
+cron.schedule("*/40 * * * * *", () => {
 try {
       axios
         .get(`${baseURI}/api/v1/welcome`)
